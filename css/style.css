@@ -1,16 +1,80 @@
 body{
-    margin: 0%;
-    margin-top: -25px ;
+   font-family: Helvetica;
+
+}
+
+.clk{
+    color:blue;
+    display: none;
+    font-size: 10px;
+}
+
+.ap1:hover + .clk{
+    
+    
+    display: block;
+}
+.ap{
+    text-decoration: none;
+    margin-left: 90%;
+    font-size: 10px;
+    position: absolute;
+    border-radius: 50%;
+}
+.img{
+    border-radius: 50%;
 }
 
 .nome{
-    background-color: rgb(224, 12, 12);
-   
+    background-color: rgb(217, 217, 217);
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 07px;
     text-align: center;
+    margin: 25px;
+    margin-top: -14px ;
+    position: absolute;
+}
+    
+.inicial{
+    padding-top: 50px;
+        
+}
+
+.hr1{
+    width: 50%;
+    position: absolute;
+    left: 5px;
+    
+  }
+  
+
+.oculto {
+    display: none;
+}
+
+.sub{
+    background-color: rgb(217, 217, 217);
+    width: 94px;
+}
+.subfor{
+    background-color: rgb(217, 217, 217);
+    width: 81px;
+}
+.subcur{
+    background-color: rgb(217, 217, 217);
+    width: 60px;
+}
+
+.bloco {
+    display: block;
+}
+.cont{
+    white-space: nowrap;
+    margin-left: 70%;
+	margin-top: 20%;
+    position: absolute;
     
     }
     
-  
-    
-
-   
