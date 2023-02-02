@@ -9,6 +9,7 @@ body{
     font-size: 10px;
 }
 
+
 .ap1:hover + .clk{
     
     
@@ -19,10 +20,12 @@ body{
     margin-left: 90%;
     font-size: 10px;
     position: absolute;
-    border-radius: 50%;
+    
 }
 .img{
     border-radius: 50%;
+    border-style:inset;
+    
 }
 
 .nome{
