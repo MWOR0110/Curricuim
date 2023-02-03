@@ -1,10 +1,9 @@
 body{
    font-family: Helvetica;
-    background-color: rgb(217, 217, 217);
+   background-color: rgb(217, 217, 217);
 }
-
 .clk{
-    color:rgb(86, 93, 222);
+    color:rgb(9, 9, 15);
     display: none;
     font-size: 10px;
 }
@@ -27,7 +26,10 @@ body{
     border-style:inset;
     
 }
-
+.ini{
+   
+    
+}
 .nome{
     background-color: rgb(0, 0, 0);
     padding-top: 5px;
@@ -43,14 +45,37 @@ body{
     
 .inicial{
     padding-top: 50px;
+    width: 60%;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    
         
+}
+
+.cfor{
+    border-style: outset;
+    width: 50%;
+    border-radius: 6%;
+    
+}
+.ccur{
+    border-style: outset;
+    width: 45%;
+    border-radius: 6%;
+}
+.cexp{
+    border-style: outset;
+    width: 35%;
+    border-radius: 6%;
+
 }
 
 .hr1{
     width: 50%;
     position: absolute;
-    left: 5px;
-    
+    left: 9px;
+    border: auto;
+
   }
   
 
@@ -59,15 +84,16 @@ body{
 }
 
 .sub{
-    background-color: rgb(217, 217, 217);
+    
     width: 94px;
 }
+
 .subfor{
-    background-color: rgb(217, 217, 217);
+    
     width: 81px;
 }
 .subcur{
-    background-color: rgb(217, 217, 217);
+    
     width: 60px;
 }
 
@@ -77,8 +103,9 @@ body{
 .cont{
     white-space: nowrap;
     margin-left: 70%;
-	margin-top: 20%;
+	margin-top: 10%;
     position: absolute;
+    
     
     }
     
